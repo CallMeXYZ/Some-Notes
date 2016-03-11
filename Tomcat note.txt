@@ -1,0 +1,2 @@
+1.虚拟路径
+2.对于ajax跨域访问的话，struts配置添加	 <param name="callbackParameter">callback</param>  有关jsonp
