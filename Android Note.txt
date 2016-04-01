@@ -153,3 +153,22 @@ All files you saved on external storage using getExternalFilesDir().
      Lisnter mListener; setListener(mListener);
 	 setListener(new Listener())
 139.MANAGE_NETWORK_USAGE
+140. <Relative> width wrap_content 里的 view width match_parent 似乎无效 换成lienearLayout 成功 难道是linearlayoutmanager 的作用? 
+141.get drawble from res then setColorFilter PorterDuff 
+142.list preference only support string array remember to convert after got 
+143.listpreference forbid dialog  overide showDialog
+144.after setSupportActoolbar the toolbar's setTitle doesnt work,use getSupportActionBar.setTitle instead. But when u have a navigationDrawable it seems still work
+145.settheme should called before setContentView so when after changed ur activity in back state may need to be recreated
+146.settheme must call before supe.create or some attr such as windowbackground wont work 145
+147. when use weight be carefull of odp wrap_content and match_parent
+148.dialogfragment match_parent setStyle(DialogFragment.STYLE_NO_TITLE,
+                android.R.style.Theme_Holo_Light_Dialog_NoActionBar_MinWidth);
+149.customview extends viewgroup,addview(child) in onmeasure and onLayout calculate and set child's size call:getChildAt(),child.onMeasure ,child.onLayout
+150.isInEditMode()
+151.cardview cardBackgroundColor should be set when using whole context theme background color
+152.sometimes need parcel to store sth maybe u can try bundle
+153.setBackGround(null) maybe cause resize problem
+154. 注释换行 <p/>
+156.$. for(var i=0;i<data[0].length)
+156.RelativeLayout.LayoutParams addRule(RelativeLayout.。。)
+157.android studio ALT+TAB perfect!!!!
