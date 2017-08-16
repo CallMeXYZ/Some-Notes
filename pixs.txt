@@ -1,4 +1,0 @@
-1. 融云 id 含 | 时，无法获取历史消息
-2. fastjosn 泛型时，使用JSON.parseObject(string,new TypeReference<A<B>>{});
-3.格林威治时间与北京时间相差8min 注意php
-4.Glide 的thumbnail的0.1f size 也是0.1 ，如果 imageview centerinside 可能回很小，placeholder不能放gif 不过可以animatedrawable
